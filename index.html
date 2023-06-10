@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Proyecto Cajero</title>
+</head>
+<body>
+    <div class="contenedorPrincipal">
+        <div class="contenedorSecundario">
+            <h1>CAJERO AUTOMATICO ATM</h1>
+            <section id="principal">
+                <H2>Iniciar Sesión</H2>
+                <h3>Elige tu usuario</h3>
+                <div class="grupoBotones">
+                    <button id="boton1" type="submit">Goku</button>
+                    <button id="boton2" type="submit">Freezer</button>
+                    <button id="boton3" type="submit">Krilin</button>
+                </div>
+                <div class="grupoInputText">
+                    <div class="grupoLabel">
+                        <label for="">Ingrese su password:</label>
+                        <input id="passwordInput" type="text" name="" required>
+                    </div>
+                    
+                    <button id="enviarBoton">Enviar</button>
+                    <button>Cancelar</button>
+                </div>
+            </section>
+
+            <section id="operaciones">
+                <h2>Hola,</h2>
+                <h2 id="usuario"></h2>
+                <div id="btnOperaciones">
+                    <h3>Que operacion deseas realizar</h3>
+                    
+                    <div class="grupoBotones">
+                        <button id="botonConsultar" type="submit">Consultar saldo</button>
+                        <button id="botonIngresar" type="submit">Ingresar monto</button>
+                        <button id="botonRetirar" type="submit">Retirar Monto</button>
+                    </div>
+                    <div class="grupoBotones">
+                        <button id="botonSalir" type="submit">Salir</button>
+                    </div>
+                </div>
+                <div id="mostrarSaldo">
+                    <h3>Tu saldo es:</h3>
+                    <p id="saldoC"></p>
+                    <button id="botonRegresar">Regresar</button>
+                </div>
+                <div id="ingresarMonto">
+                    <label for="">Ingrese la cantidad</label>
+                    <input id="inputMonto" type="text" name="" id="">
+                    <button id="botonRegistrarIngreso">Registrar ingreso</button>
+                </div>
+                <div id="retirarMonto">
+                    <label for="">Ingrese la cantidad</label>
+                    <input id="inputMontoRetiro" type="text" name="" id="">
+                    <button id="botonRegistrarRetiro">Registrar retiro</button>
+                </div>
+                <div id="montoIngresado">
+                    <h3>El saldo nuevo saldo es:</h3>
+                    <p id="saldoN"></p>
+                    <h3>Cantidad ingresada:</h3>
+                    <p id="cantidadIngresada"></p>
+                    <button id="botonRegresar2">Regresar</button>
+                </div>
+        </div>
+        </div>
+
+    </section>
+    <script src="./app.js"></script>
+</body>
+</html>

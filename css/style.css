@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    color: white;
+    margin: 10% 20%; 
+    border: 5px solid rgb(8, 239, 100);
+    border-radius: 10px;
+    text-align: center;
+    justify-content: space-evenly;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #252d2d;
+}
+
+.contenedorPrincipal{
+    padding: 10px;
+    width: 100%;
+    height: 50vh;
+    background-image: url(../img/fondo3.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+
+h1{
+    margin-top: 20px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+.grupoBotones{
+    margin-top: 10px;
+}
+.grupoInputText{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.grupoLabel{
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+label{
+    display: block;
+
+}
+
+input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    color: rgb(1, 1, 1);
+
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #09b044;
+  }
+
+  input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+  }
+  
+ 
+  h1 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  #usuario{
+    color: #ff0019;
+  }
+
+  
+  
+  
+  
+  
+  
